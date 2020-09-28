@@ -1,0 +1,16 @@
+.edit-button {
+  width: 24px;
+  height: 24px;
+  margin-top: 33px;
+  margin-bottom: 59px;
+  border: 0px;
+  outline: 1px white solid;
+  padding: 0;
+  /* background-image: url('../../../images/pen.jpg'); */
+  background-color: #000000;
+}
+
+.edit-button:hover {
+  opacity: .6;
+  cursor: pointer;
+}

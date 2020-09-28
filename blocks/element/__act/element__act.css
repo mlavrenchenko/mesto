@@ -1,0 +1,12 @@
+.element__act {
+  width: 100%;
+  min-height: 71px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 0px 0px 10px 10px;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
+}

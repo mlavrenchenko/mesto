@@ -1,0 +1,15 @@
+.popup__info {
+  max-width: 358px;
+  min-width: 358px;
+  height: 40px;
+  font-size: 14px;
+  border-bottom: 1px solid #000000;
+  border-width: 0px 0px 1px;
+  border-image: initial;
+  margin: 0 auto 29.74px;
+  opacity: .2;
+}
+
+.popup__info:last-child {
+  margin-bottom: 0;
+}

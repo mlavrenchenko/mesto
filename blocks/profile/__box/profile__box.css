@@ -1,0 +1,6 @@
+.profile__box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 17px;
+
+}

@@ -1,0 +1,7 @@
+.profile__data {
+  display: flex;
+  flex-direction: row;
+  max-width: 336px;
+  min-height: 77px;
+  margin-right: 27%;
+}
