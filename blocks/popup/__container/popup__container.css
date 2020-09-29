@@ -8,11 +8,15 @@
   max-width: 430px;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 530px) {
   .popup__container {
     margin-right: 19px;
     margin-left: 19px;
-    max-width: 100vw;
+    max-width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 

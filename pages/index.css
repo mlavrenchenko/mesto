@@ -24,6 +24,10 @@
 
 @import url('../blocks/popup/__info/popup__info.css');
 
+@import url('../blocks/popup/__name/popup__name.css');
+
+@import url('../blocks/popup/__job/popup__job.css');
+
 @import url('../blocks/popup/__button/popup__button.css');
 
 @import url('../blocks/popup/__button-text/popup__button-text.css');

@@ -1,6 +1,6 @@
 .element__like {
-  width: 29.76px;
-  height: 18.13px;
+  max-width: 29.76px;
+  min-height: 18.13px;
   margin-top: 25px;
   margin-right: 22.24px;
   margin-bottom: 31px;
