@@ -5,3 +5,14 @@
   column-gap: 18px;
   row-gap: 21px;
 }
+
+
+@media screen and (max-width: 924px) {
+  .elements {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 14px;
+    column-gap: 14px;
+
+  }
+}

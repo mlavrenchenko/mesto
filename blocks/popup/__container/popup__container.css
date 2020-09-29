@@ -8,5 +8,11 @@
   max-width: 430px;
 }
 
-
+@media screen and (max-width: 690px) {
+  .popup__container {
+    margin-right: 19px;
+    margin-left: 19px;
+    max-width: 100vw;
+  }
+}
 

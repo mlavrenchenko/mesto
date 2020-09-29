@@ -12,3 +12,12 @@
   opacity: .6;
   cursor: pointer;
 }
+
+@media screen and (max-width: 690px) {
+  .add-button {
+    width: 282px;
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+}
+
