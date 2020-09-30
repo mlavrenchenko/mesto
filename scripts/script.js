@@ -31,7 +31,7 @@ function formSubmitHandler (evt) {
   popupToggle();
 }
 
-
+formElement.addEventListener('submit', formSubmitHandler);
 // Находим форму в DOM
 // let formElement = document.querySelector()
 
@@ -55,4 +55,4 @@ function formSubmitHandler (evt) {
 
 // Прикрепляем обработчик к форме:
 // он будет следить за событием “submit” - «отправка»
-formElement.addEventListener('submit', formSubmitHandler);
+
