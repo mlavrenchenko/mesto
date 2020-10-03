@@ -1,7 +1,11 @@
 .element__like {
-  max-width: 29.76px;
-  min-height: 18.13px;
-  margin-top: 25px;
-  margin-right: 22.24px;
-  margin-bottom: 31px;
+  max-width: 21px;
+  min-height: 18px;
+  /* margin-top: 25px;
+  margin-right: 22px;
+  margin-bottom: 31px; */
+}
+
+.element__like:hover {
+  cursor: pointer;
 }

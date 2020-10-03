@@ -6,3 +6,9 @@
   margin-left: 0;
   margin-right: 30px;
 }
+
+@media screen and (max-width: 530px) {
+  .profile__avatar {
+    margin-right: 0px;
+  }
+}

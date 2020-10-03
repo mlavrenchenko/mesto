@@ -2,7 +2,9 @@
   width: 84%;
   height: 40px;
   font-size: 14px;
-  border-bottom: 1px solid #000000;
+  font-style: normal;
+  font-weight: normal;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   border-width: 0px 0px 1px;
   border-image: initial;
   margin: 0 auto 29.74px;
@@ -11,4 +13,11 @@
 
 .popup__info:last-child {
   margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 530px) {
+  .popup__info {
+    width: 100%;
+  }
 }

@@ -1,4 +1,13 @@
 .header {
   max-width: 882px;
-  display: flex;
+}
+
+.header:after {
+  content: '';
+  max-width: 882px;
+  margin: 0 auto;
+  opacity: .7;
+  display: block;
+  height: 1px;
+  background-color: #545454;
 }

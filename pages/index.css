@@ -1,5 +1,7 @@
 @import url('../vendor/normalize.css');
 
+@import url('../vendor/fonts/fonts.css');
+
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/page/__header/page__header.css');
@@ -14,7 +16,7 @@
 
 @import url('../blocks/popup/_opened/popup_opened.css');
 
-@import url('../blocks/popup/__close-btn/popup__close-btn.css');
+@import url('../blocks/popup/__button-close/popup__button-close.css');
 
 @import url('../blocks/popup/__container/popup__container.css');
 
@@ -24,15 +26,11 @@
 
 @import url('../blocks/popup/__info/popup__info.css');
 
-@import url('../blocks/popup/__name/popup__name.css');
+@import url('../blocks/popup/__info/_name/popup__info_name.css');
 
-@import url('../blocks/popup/__job/popup__job.css');
+@import url('../blocks/popup/__info/_job/popup__info_job.css');
 
 @import url('../blocks/popup/__button/popup__button.css');
-
-@import url('../blocks/popup/__button-text/popup__button-text.css');
-
-@import url('../blocks/line/line.css');
 
 @import url('../blocks/content/__profile/content__profile.css');
 
@@ -52,11 +50,7 @@
 
 @import url('../blocks/edit-button/edit-button.css');
 
-@import url('../blocks/edit-button/__pen/edit-button__pen.css');
-
 @import url('../blocks/add-buttom/add-button.css');
-
-@import url('../blocks/add-buttom/__plus/add-button__plus.css');
 
 @import url('../blocks/content/__elements/content__elements.css');
 

@@ -1,4 +1,9 @@
 .element__btn-like {
   border: none;
   background-color: #ffffff;
+  /* max-width: 30px;
+  min-height: 18px; */
+  margin-top: 25px;
+  margin-right: 22px;
+  margin-bottom: 31px;
 }
