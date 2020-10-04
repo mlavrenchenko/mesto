@@ -1,19 +1,10 @@
 .page__header {
-  padding-top: 45px;
+  padding-top: 43px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 1280px) {
-  .page__header {
-    padding-left: 27px;
-    padding-right: 27px;
-  }
 }
 
 @media screen and (max-width: 530px) {
   .page__header {
     padding-top: 28px;
-    padding-left: 27px;
-    padding-right: 27px;
   }
 }

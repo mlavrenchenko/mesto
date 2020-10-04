@@ -2,12 +2,19 @@
   max-width: 882px;
 }
 
-.header:after {
+.header::after {
   content: '';
-  max-width: 882px;
+  width: 100%;
   margin: 0 auto;
   opacity: .7;
   display: block;
   height: 1px;
   background-color: #545454;
+}
+
+@media screen and (max-width: 530px) {
+  .header::after {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

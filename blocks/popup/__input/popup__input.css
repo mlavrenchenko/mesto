@@ -5,6 +5,10 @@
   justify-content: center; */
   border: none;
   flex-direction: column;
+  margin-top: 54px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 530px) {

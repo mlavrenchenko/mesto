@@ -1,9 +1,17 @@
 .footer__copyright {
-  /* font-style: Inter; */
   font-style: normal;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 22px;
   vertical-align: top;
   color: #545454;
   max-width: 318px;
+  margin: 0;
+}
+
+@media screen and (max-width: 530px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
